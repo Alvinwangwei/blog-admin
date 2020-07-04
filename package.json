@@ -1,7 +1,8 @@
 {
-  "name": "client",
+  "name": "blog-admin",
   "version": "0.1.0",
-  "private": true,
+  "author": "AlvinWang",
+  "license": "ISC",
   "scripts": {
     "start": "vue-cli-service serve",
     "build": "vue-cli-service build",
