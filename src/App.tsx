@@ -1,12 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 
-function App() {
+import Index from './views/layout/layout'
+
+export default function App() {
   return (
-    <div className="App">
-    </div>
+    <Router>
+      <div id='app'>
+        <Switch>
+          <Route path="/">
+            <Index />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
-export default App;
