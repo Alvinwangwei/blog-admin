@@ -1,5 +1,5 @@
 import BlogList from '../views/list/list'
-import PostBlog from '../views/blog/post'
+import PostBlog from '../views/blog/post/post'
 import BlogInfo from '../views/blog/info'
 
 
