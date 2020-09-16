@@ -11,7 +11,7 @@ import Myheader from '../../components/header/header'
 
 import { routes } from '../../consts/routes'
 
-const { Content } = Layout;
+const { Content, Footer } = Layout;
 
 export default class SiderDemo extends React.Component {
   state = {
@@ -32,7 +32,7 @@ export default class SiderDemo extends React.Component {
           <Content
             className="site-layout-background"
             style={{
-              margin: '24px 16px',
+              margin: '24px 16px 0',
               padding: 24,
               minHeight: 280,
             }}>
@@ -46,7 +46,13 @@ export default class SiderDemo extends React.Component {
               })
             }
           </Content>
+          <Footer
+            style={{textAlign: 'center'}}
+          >
+            Copyright © Water 2020
+          </Footer>
         </Layout>
+        
       </Layout>
     );
   }
